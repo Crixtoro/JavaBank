@@ -1,9 +1,11 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hola mundo!!");
-        System.out.println("Segunda línea");
-        System.out.println("tercera línea");
-        System.out.println("modificado en la rama testing");
+
+        int edad = 20;
+        boolean esMayor = (edad >= 18);
+        String mensaje = esMayor? "Bienvenido, adulto": "Acceso denegado";
+
+        System.out.println("Mensaje: " + mensaje);
 
     }
 
